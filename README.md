@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Creation d'un projet ReactJS avec Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tout d'abord rendez-vous sur le site de NodeJS https://nodejs.org/en/download/
+Téléchargez et Installez-le 
 
 ## Available Scripts
 
