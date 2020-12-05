@@ -1,0 +1,19 @@
+.fiche{
+    display: inline-block;
+    padding: 1rem;
+    border:1px solid black;
+    border-radius: 1rem;
+    margin: 1rem;
+    min-width: 200px;
+    min-height: 300px;
+}
+.title{
+    text-align: center;
+    background-color: rgb(134, 197, 255);
+    font-weight: 800;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.image{
+    max-width: 300px;
+}

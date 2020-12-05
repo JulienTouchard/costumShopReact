@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Lapin",
+        "price": 165,
+        "desc": "Avec ça tu seras le roi de la Night!",
+        "size": "L",
+        "url": "../assets/img/lapin.jpg",
+        "qt": 54
+    },
+    {
+        "title": "Canard",
+        "price": 350,
+        "desc": "Costume 100% pure laine vierge. blabla",
+        "size": "M",
+        "url": "../assets/img/shopping.webp",
+        "qt": 22
+    },
+    {
+        "title": "Chaton",
+        "price": 500,
+        "desc": "Costume 100% pure laine vierge. blabla",
+        "size": "S",
+        "url": "../assets/img/aerobic.jpg",
+        "qt": 11
+    },
+    {
+        "title": "Mario",
+        "price": 500,
+        "desc": "Costume 100% pure laine vierge. blabla",
+        "size": "XL",
+        "url": "../assets/img/mario.jpg",
+        "qt": 11
+    },
+    {
+        "title": "Los pollos hermanos",
+        "price": 500,
+        "desc": "Costume 100% pure laine vierge. blabla",
+        "size": "XL",
+        "url": "../assets/img/poulet.jpg",
+        "qt": 22
+    },
+    {
+        "title": "Sushi",
+        "price": 500,
+        "desc": "Costume 100% pure laine vierge. blabla",
+        "size": "L",
+        "url": "../assets/img/sushi.jpg",
+        "qt": 14
+    },
+    {
+        "title": "Queen Mum",
+        "price": 500,
+        "desc": "Costume 100% pure laine vierge. blabla",
+        "size": "L",
+        "url": "../assets/img/queen.jpg",
+        "qt": 8
+    }
+]

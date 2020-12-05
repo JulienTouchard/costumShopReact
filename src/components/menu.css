@@ -1,0 +1,9 @@
+li{
+    display: inline;
+    padding: 1rem;
+
+}
+li:hover{
+    cursor: pointer;
+    background-color: rgb(137, 237, 255);
+}
