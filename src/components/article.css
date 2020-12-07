@@ -1,19 +1,26 @@
-.fiche{
-    display: inline-block;
-    padding: 1rem;
-    border:1px solid black;
-    border-radius: 1rem;
-    margin: 1rem;
-    min-width: 200px;
-    min-height: 300px;
+.card{
+    min-height: 500px;
+    box-shadow: 0 0 2px 2px rgb(235, 235, 235);
+}
+.card-header{
+    min-height: 81px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
 }
 .title{
-    text-align: center;
-    background-color: rgb(134, 197, 255);
-    font-weight: 800;
-    padding: 1rem;
-    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 89, 255);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
 }
-.image{
-    max-width: 300px;
+
+.articleImg{
+    margin: 1rem auto;
+    max-width: 170px;
 }

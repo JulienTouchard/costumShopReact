@@ -1,0 +1,22 @@
+.frame{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 2;
+}
+.panier{
+    padding: 2rem;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+}
+.annul:hover{
+    cursor: pointer;
+}

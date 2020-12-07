@@ -1,29 +1,13 @@
 import React from 'react'
 import BoutiqueContext from '../BoutiqueContext'
-
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function BoutonArticle (props) {
-    // J'appelle mon BoutiqueContext Provider qui contient le state de mon component Boutique directement sans passer
-    // par mon component intermédiaire Article
-    const boutiqueState = React.useContext(BoutiqueContext)
-    let stock;
-    switch(props.nom){
-        case "moto":
-            stock = boutiqueState.stockMoto
-        break
-        case "voiture":
-            stock = boutiqueState.stockVoiture
-        break
-        case "camion":
-            stock = boutiqueState.stockCamion
-        break
-        default:
-    }
-    
-    console.log(boutiqueState);
+    const costumesContext = React.useContext(BoutiqueContext)
+    let costum = costumesContext.Costumes[props.target]
     return <>
-        {stock === 0 ? "" : <button onClick={()=>boutiqueState.buyArticle(props.nom)}>Buy article il me reste {stock} produits</button>}
+        {costum.qt === 0 ? "" : <button className="btn btn-primary mt-2 mb-2" onClick={()=>costumesContext.buyArticle(props.target)}>Buy article</button>}
+        <small className="font-italic text-muted ">{costum.qt === 0 ? "Produit Indisponible" : "En Stock : " + costum.qt}</small>
         </>
 }
 export default BoutonArticle
